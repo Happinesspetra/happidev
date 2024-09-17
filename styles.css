@@ -1,0 +1,58 @@
+body{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 27%;
+}
+
+h1{
+    position: relative;
+    left: 25%;
+}
+
+.grid {
+    width: 560px;
+    height: 560px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.wall {
+    background-color: rgb(175, 22, 175);
+}
+
+.pac-man {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: deeppink;
+}
+
+.buttons{
+    width: 80px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin: 20px 50px;
+    background-color: rgb(109, 14, 109);
+    color: white;
+}
+
+.buttons:hover{
+    background-color: rgb(225, 144, 225);
+}
+
+@media (min-width:768px) {
+    body{
+        position: absolute;
+        left: 20%;
+    }
+}
